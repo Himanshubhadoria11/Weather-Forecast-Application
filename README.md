@@ -6,6 +6,17 @@ A Weather Forecast Application developed by using HTML, JavaScript, and Tailwind
 
  Open `index.html` in your browser.
 
+ ## Demo
+
+Check out the live demo [here]().
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Himanshubhadoria11/Weather-Forecast-Application
+   ```
+
 
 
 ## Features of Weather Forecast Application

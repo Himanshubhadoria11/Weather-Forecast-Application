@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <!-- Facicon Link -->
-    <link rel="shortcut icon" href="./resources/favicon icon.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon icon.jpeg" type="image/x-icon">
     <!-- External CSS Link -->
     <link rel="stylesheet" href="./src/input.css">
     <!-- Font Awesome CDN Link -->
@@ -24,12 +24,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header class="bg-blue-500 text-white p-4 text-center">
+    <header class=" width bg-blue-500 text-white p-4 text-center">
         <h1 class="text-2xl font-bold text-white">Weather Dashboard</h1>
     </header>
-    <!-- <header class="fixed top-0 left-0 w-full bg-blue-600 shadow-md z-50 px-5 py-3">
-        <h1 class="text-2xl font-bold text-white">Weather Dashboard</h1>
-      </header> -->
+    
       
     
     <!-- Main Section -->
@@ -83,27 +81,33 @@
                 </section> 
                 <section class="flex flex-col h-full gap-y-3 min-[460px]:flex-row gap-x-3 min-[460px]:items-center">
                    
-                   
+                   <br><br>
                     <!-- Extended Weather forecast Button -->
-                    <p class="hidden extended-forecast-heading w-full bg-blue-500 text-white rounded-md p-2 order-2 min-[460px]:-order-1">5-Day Forecast</p>
+                    <p class="hidden extended-forecast-heading w-full bg-pink-500 text-white rounded-md p-2 order-2 min-[460px]:-order-1">5-Day Forecast</p>
                    
                     <!-- Recent Search Dropdown Menu -->
                     <section class="recent-search-dropdown-container group relative rounded-md hidden">
-                        <p class="recent-search-heading cursor-pointer w-full min-[460px]:w-max bg-blue-500 text-white rounded-md p-2 border-2 border-slate-700">Recent Searches</p>
-                        <!-- <option>Mumbai</option>
-                        <option>Delhi</option>
-                        <option>Kolkata</option>
-                        <option>Chennai</option>
-                        <option>Vishakapatnam</option> -->
+                        <p class="recent-search-heading cursor-pointer w-full min-[460px]:w-max bg-pink-500 text-white rounded-md p-2 border-2 border-slate-700">Recent Searches</p>
+                       
                         
                           <section class="recent-search-dropdown hidden group-hover:block w-full absolute top-[44px] bg-slate-300 shadow-lg rounded-lg z-10">
 
                         </section>
                     </section>
                 </section> 
+                 <!-- Extented Weather for 5 days -->
+             <section class="extended-forecast-container mt-3 flex flex-wrap justify-start min-[850px]:justify-around gap-y-4 gap-x-4 text-gray-500"> 
+                <!-- Day Weather -->
+                <!-- <article class="bg-white text-center w-fit p-3 rounded-xl shadow-lg">
+                    <p>Sun</p>
+                    <img src="../resources/cloudy.png" alt="Weather" class="w-36">
+                    <p>30°C</p>
+                </article> -->
+            </section>
+            </section>
                 <!-- Today's Highlight -->
             <section class="mt-10">
-                <h2 class="hidden other-weather-details-section-heading text-3xl font-semibold">Today's Highlight</h2>
+                <h2 class=" other-weather-details-section-heading text-3xl font-semibold text-slate-500">Today's Highlight</h2>
               
                 <section class="other-weather-section flex-wrap mt-3 flex gap-x-5 gap-y-5 text-red-500">
                     <!-- <article class="bg-white min-w-[200px] text-center w-fit p-3 rounded-xl shadow-lg">
@@ -113,16 +117,8 @@
                    
                  </section> 
             </section>
-            </section>
-             <!-- Extented Weather for 5 days -->
-             <section class="extended-forecast-container mt-3 flex flex-wrap justify-start min-[850px]:justify-around gap-y-4 gap-x-4 text-gray-500"> 
-                <!-- Day Weather -->
-                <!-- <article class="bg-white text-center w-fit p-3 rounded-xl shadow-lg">
-                    <p>Sun</p>
-                    <img src="../resources/cloudy.png" alt="Weather" class="w-36">
-                    <p>30°C</p>
-                </article> -->
-            </section>
+            <!-- </section> -->
+            
             <!-- Other Weather Details Section -->
         </section>
         <!-- Other Weather Details Main Section -->
